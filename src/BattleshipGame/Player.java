@@ -6,8 +6,9 @@ public class Player {
 	private int points;
 	private Torpedo torpedoes[];
 
-	public Player() {
-        this.ships = new Ship[6];
+        public Player(){}
+	public Player(Ship ships[]) {
+        this.ships = ships;
 		// TODO - implement Player.Player
 		throw new UnsupportedOperationException();
 	}
